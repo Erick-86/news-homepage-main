@@ -66,10 +66,9 @@ main .left_section .left_section-down{
 
 main .left_section .left_section-down h2{
     text-transform: capitalize;
-    font-size: 1.8rem;
+    font-size: 2.4rem;
     font-weight: 800;
     width: 100%;
-    padding-right: 40px;
 }
 
 main .left_section .left_section-down div{
