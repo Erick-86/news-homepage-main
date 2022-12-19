@@ -81,4 +81,10 @@ main .left_section .left_section-down div a{
     color: hsl(36, 100%, 99%);
     padding: .6rem 1.3rem;
     display: inline-block;
+    transition: all .1s linear;
+}
+
+/* Read More Link Hover Effect */
+main .left_section .left_section-down div a:hover{
+    background-color: hsl(240, 100%, 5%);
 }
