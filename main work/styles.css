@@ -99,7 +99,8 @@ main aside{
     padding: 1rem;
 }
 main aside{
-    color: hsl(30, 2%, 82%)
+    color: hsl(30, 2%, 82%);
+    width: 100%;
 }
 
 main aside h3{
