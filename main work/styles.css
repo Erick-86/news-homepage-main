@@ -29,4 +29,6 @@
 .header .nav ul li a{
     text-transform: capitalize;
     color: hsl(36, 100%, 99%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
