@@ -31,4 +31,10 @@
     color: hsl(236, 13%, 42%);
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+    transition: all .1s linear;
+}
+
+/* nav link hover effects */
+.header .nav ul li a:hover{
+    color: hsl(5, 85%, 63%);
 }
