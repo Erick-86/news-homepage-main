@@ -23,3 +23,8 @@
 .header .nav ul li{
     margin-left: 20px;
 }
+
+.header .nav ul li a{
+    text-transform: capitalize;
+    color: hsl(36, 100%, 99%);
+}
