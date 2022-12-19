@@ -48,6 +48,10 @@ main{
 }
 
 /* image resizing */
+main .left_section{
+    padding-right: 1.5rem;
+}
+
 main .left_section img{
     max-width: 100%;
     max-height: 100%;
