@@ -13,3 +13,11 @@
     width: 90%;
     margin: auto;
 }
+
+.header .nav ul{
+    display: flex;
+}
+
+.header .nav ul li{
+    margin-left: 20px;
+}
