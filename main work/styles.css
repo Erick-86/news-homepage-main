@@ -93,18 +93,22 @@ main .left_section .left_section-down div a:hover{
 
 /* Main section aside */
 main aside{
+    color: hsl(30, 2%, 82%);
+    width: 42rem;
     background-color: hsl(240, 100%, 5%);
     padding: 1rem;
-}
-main aside{
-    color: hsl(30, 2%, 82%);
-    width: 42rem
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 main aside h3{
     color: hsl(35, 77%, 62%);
-    margin-bottom: .7rem;
     font-size: 1.7rem;
+}
+
+main aside div{
+    margin: 1rem 0;
 }
 
 main aside a{
@@ -112,7 +116,6 @@ main aside a{
     font-size: .9rem;
     font-weight: 700;
     transition: all .1s linear;
-    margin-bottom: 2rem;
 }
 
 main aside a:hover{
@@ -121,14 +124,13 @@ main aside a:hover{
 
 main aside p{
     font-size: .9rem;
-    margin: 0.5rem 0rem 1.1rem 0;
+    margin-top: 1rem;
 }
 
 main aside .middle-div{
     border-top: 1px solid hsla(0, 0%, 53%, 0.438);
     border-bottom: 1px solid hsla(0, 0%, 53%, 0.438);
-    padding: 1.1rem 0;
-    margin-bottom: 1rem;
+    padding: 2rem 0;
 }
 
 main aside .middle-div p{
@@ -232,8 +234,24 @@ main aside .middle-div p{
         font-size: 2.7rem;
     }
 
+    main aside a{
+        font-size: 1.2rem;
+    }
+
+    main aside p{
+        font-size: 1rem;
+    }
+
+    main .left_section .left_section-down div a{
+        font-size: 1.3rem;
+    }
+
     .footer-section{
         width: 80%;
+    }
+
+    .footer-section .cards .cards_list img{
+        height: 170px;
     }
 
     .cards_list a{
