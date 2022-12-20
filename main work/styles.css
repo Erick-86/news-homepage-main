@@ -138,7 +138,8 @@ main aside .middle-div p{
 /* footer section cards */
 .footer-section{
     margin: auto;
-    margin-top: 90px;
+    margin: 4rem auto;
+    width: 95%;
 }
 .footer-section .cards{
     display: grid;
