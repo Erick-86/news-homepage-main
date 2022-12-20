@@ -188,3 +188,19 @@ main aside .middle-div p{
     font-size: 14px;
     color: hsl(220, 1%, 43%);
 }
+
+/* RESPONSIVE */
+/* Larger Screens (964px min) */
+@media only screen and (max-width: 1440px){
+    .header{
+        width: 80%;
+    }
+
+    .first_Section{
+        width: 80%
+    }
+
+    .footer-section{
+        width: 80%;
+    }
+}
