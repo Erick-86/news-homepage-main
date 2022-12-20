@@ -134,3 +134,20 @@ main aside .middle-div{
 main aside .middle-div p{
     margin-bottom: 0;
 }
+
+/* footer section cards */
+.footer-section{
+    margin: auto;
+    margin-top: 90px;
+}
+.footer-section .cards{
+    display: flex;
+}
+.footer-section .cards .cards_list{
+    display: flex;
+}
+
+.footer-section .cards .cards_list img{
+    height: 130px;
+    object-fit: contain;
+}
