@@ -206,7 +206,45 @@ main aside .middle-div p{
         width: 80%
     }
 
+    main .left_section .left_section-down h2{
+        font-size: 3.7rem;
+    }
+
+    main .left_section .left_section-down div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    main .left_section .left_section-down div p{
+        font-size: 1.2rem;
+    }
+
+    main .left_section .left_section-down div a{
+        width: fit-content;
+    }
+
+    main aside{
+        width: 51rem;
+    }
+
+    main aside h3 {
+        font-size: 2.7rem;
+    }
+
     .footer-section{
         width: 80%;
+    }
+
+    .cards_list a{
+        font-size: 1.1rem;
+    }
+
+    .cards_list h2{
+        font-size: 2rem;
+    }
+
+    .cards_list p{
+        font-size: 1rem;
     }
 }
