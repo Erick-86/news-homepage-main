@@ -159,6 +159,7 @@ main aside .middle-div p{
 .footer-section .cards .cards_list img{
     height: 130px;
     object-fit: contain;
+    margin-right: 13px;
 }
 
 .cards_list h2{
