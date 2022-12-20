@@ -149,6 +149,11 @@ main aside .middle-div p{
 }
 .footer-section .cards .cards_list{
     display: flex;
+    transition: all .2s linear;
+}
+
+.footer-section .cards .cards_list:hover{
+    background-color: hsl(0, 0%, 96%);
 }
 
 .footer-section .cards .cards_list img{
