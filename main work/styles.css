@@ -153,6 +153,12 @@ main aside .middle-div p{
     transition: all .2s linear;
 }
 
+.footer-section .cards .cards_list div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .footer-section .cards .cards_list:hover{
     background-color: hsl(0, 0%, 96%);
 }
