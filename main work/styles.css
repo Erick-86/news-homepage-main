@@ -334,6 +334,11 @@ main aside .middle-div p{
 }
 
 @media only screen and (max-width: 570px){
+    .mobile-body-bg{
+        overflow-y: scroll;
+        position: fixed;
+    }
+
     header button{
         display: block;
     }
@@ -342,8 +347,42 @@ main aside .middle-div p{
         display: none;
     }
 
+    #closebtn{
+        background-color: white;
+        border: none;
+        float: right;
+        margin: 25px 25px 0px 0px;
+    }
+
     .showMenu{
         display: block !important;
+        background-color: #fff;
+        position: fixed;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        width: 70%;
+    }
+
+    .header .nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 6rem;
+    }
+
+    .header .nav ul li{
+        margin: .9rem 30px;
+    }
+
+    .mobile-menu-bg{
+        background-color: rgba(56, 56, 56, 0.336);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
     }
 }
 
