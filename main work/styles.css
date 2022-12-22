@@ -316,7 +316,13 @@ main aside .middle-div p{
 
 
 } */
-
+@media only screen and (max-width: 1160px){
+    .header,
+    .first_Section,
+    .footer-section {
+        width: 98%;
+    }
+}
 @media only screen and (max-width: 800px){
     .first_Section {
         display: flex;
