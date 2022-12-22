@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
+    width: 1120px;
     margin: 20px auto;
 }
 
@@ -58,7 +58,7 @@ header .menubtn{
 /* MAIN SECTION */
 .first_Section{
     display: flex;
-    width: 95%;
+    width: 1120px;
     margin: auto;  
 }
 
@@ -167,7 +167,7 @@ main aside .middle-div p{
 .footer-section{
     margin: auto;
     margin: 4rem auto;
-    width: 95%;
+    width: 1120px
 }
 .footer-section .cards{
     display: grid;
