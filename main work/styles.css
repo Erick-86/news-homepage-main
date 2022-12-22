@@ -86,7 +86,6 @@ main .left_section .left_section-down div {
 /* left section bottom texts */
 main .left_section .left_section-down{
     display: flex;
-    align-items: center;
     margin-top: 1.1rem;
 }
 
