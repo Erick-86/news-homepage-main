@@ -126,7 +126,7 @@ main .left_section .left_section-down div a:hover{
 /* Main section aside */
 main aside{
     color: hsl(30, 2%, 82%);
-    width: 42rem;
+    width: 43.5rem;
     background-color: hsl(240, 100%, 5%);
     padding: 1rem;
     display: flex;
@@ -326,11 +326,17 @@ main aside .middle-div p{
     .header,
     .first_Section,
     .footer-section {
-        width: 98%;
+        width: 93%;
     }
 }
 
 @media only screen and (max-width: 922px){
+    .header,
+    .first_Section,
+    .footer-section {
+        width: 98%;
+    }
+
     main .left_section .left_section-down {
         height: 100%;
         margin-top: 1.6rem;
