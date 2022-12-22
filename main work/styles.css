@@ -108,7 +108,7 @@ main .left_section .left_section-down div a{
     background-color: hsl(5, 85%, 63%);
     color: hsl(36, 100%, 99%);
     padding: .6rem 1.3rem;
-    display: inline-block;
+    width: fit-content;
     transition: all .1s linear;
 }
 
