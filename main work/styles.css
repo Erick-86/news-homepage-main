@@ -386,3 +386,22 @@ main aside .middle-div p{
     }
 }
 
+@media only screen and (max-width: 470px){
+    main .left_section .left_section-down {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .left_section .left_section-down div p {
+        margin: 1rem 0 1.5rem 0;
+    }
+
+    main .left_section .left_section-down {
+        margin-bottom: 2.2rem;
+    }
+    
+    .footer-section .cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+    }
+}
