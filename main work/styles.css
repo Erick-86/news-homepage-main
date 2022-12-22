@@ -64,6 +64,10 @@ main .left_section img{
     max-height: 100%;
 }
 
+main .left_section .mobile-img{
+    display: none;
+}
+
 main .left_section .left_section-down div {
     display: flex;
     flex-direction: column;
@@ -386,7 +390,20 @@ main aside .middle-div p{
     }
 }
 
-@media only screen and (max-width: 470px){
+@media only screen and (max-width: 490px){
+    main .left_section .desktop-img{
+        display: none;
+    }
+    
+    main .left_section .mobile-img{
+        display: block;
+    }
+
+    .header .nav ul li a{
+        color: hsl(240, 2%, 8%);
+        font-size: 1.1rem;
+    }
+    
     main .left_section .left_section-down {
         display: flex;
         flex-direction: column;
