@@ -24,12 +24,13 @@
 }
 
 .header .nav ul li{
-    margin-left: 20px;
+    margin-left: 35px;
 }
 
 .header .nav ul li a{
     text-transform: capitalize;
     color: hsl(236, 13%, 42%);
+    font-size: 1.1rem;
     font-weight: 400;
     transition: all .1s linear;
 }
