@@ -40,10 +40,18 @@
 }
 
 header .menubtn{
-  
+    display: none;
     background: none;
     border: none;
     cursor: pointer;
+}
+
+#closebtn{
+    display: none;
+    background-color: white;
+    border: none;
+    float: right;
+    margin: 25px 25px 0px 0px;
 }
 
 
@@ -351,11 +359,17 @@ main aside .middle-div p{
         display: none;
     }
 
+    .header .nav ul li a{
+        color: hsl(240, 2%, 8%);
+        font-size: 1.1rem;
+    }
+
     #closebtn{
-        background-color: white;
-        border: none;
-        float: right;
-        margin: 25px 25px 0px 0px;
+        display: block;
+    }
+
+    header .menubtn{
+        display: block;
     }
 
     .showMenu{
@@ -390,6 +404,20 @@ main aside .middle-div p{
     }
 }
 
+@media only screen and (max-width: 522px){
+    .cards_list h2 {
+        margin-bottom: 0rem;
+    }
+
+    .cards_list p {
+        margin-top: 0.1rem;
+    }
+
+    .cards_list a {
+        line-height: 1.3;
+    }
+}
+
 @media only screen and (max-width: 490px){
     main .left_section .desktop-img{
         display: none;
@@ -397,11 +425,6 @@ main aside .middle-div p{
     
     main .left_section .mobile-img{
         display: block;
-    }
-
-    .header .nav ul li a{
-        color: hsl(240, 2%, 8%);
-        font-size: 1.1rem;
     }
     
     main .left_section .left_section-down {
